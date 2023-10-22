@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx;h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{b13334a2-1655-4eee-9a9b-f4736a7f7203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{f78bc6e1-e547-4333-99a7-1aaec1d2172a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets">
+      <UniqueIdentifier>{52d31856-afad-4de4-8fe9-47b1af8e8e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\MainWindow">
+      <UniqueIdentifier>{e28349c9-6fd7-41d0-9d38-e4d48ef5ec63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CorrectFunction">
+      <UniqueIdentifier>{8a08c00a-24e3-461e-8e99-327cdeba9105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\FileExtensionsDialog">
+      <UniqueIdentifier>{15e1204d-2613-4c78-82b9-baf75f3b77bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\FileExceptionsDialog">
+      <UniqueIdentifier>{17baf78d-33a2-4b60-a812-dc147e4589a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="Classes\CorrectFunction\CorrecterFunction.h">
+      <Filter>Classes\CorrectFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CorrectFunction\CorrectFunctionsCore.h">
+      <Filter>Classes\CorrectFunction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\Widgets\MyPlainTextLogger.cpp">
+      <Filter>Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MqFileCorrecter.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\MainWindow.cpp">
+      <Filter>Forms\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CorrectFunction\CorrecterFunction.cpp">
+      <Filter>Classes\CorrectFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CorrectFunction\CorrectFunctionsCore.cpp">
+      <Filter>Classes\CorrectFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms\FileExtensionsDialog.cpp">
+      <Filter>Forms\FileExtensionsDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Forms\Widgets\MyPlainTextLogger.h">
+      <Filter>Widgets</Filter>
+    </QtMoc>
+    <QtMoc Include="Classes\MqFileCorrecter.h">
+      <Filter>Classes</Filter>
+    </QtMoc>
+    <QtMoc Include="Forms\MainWindow.h">
+      <Filter>Forms\MainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="Forms\FileExtensionsDialog.h">
+      <Filter>Forms\FileExtensionsDialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Forms\MainWindow.ui">
+      <Filter>Forms\MainWindow</Filter>
+    </QtUic>
+    <QtUic Include="Forms\FileExtensionsDialog.ui">
+      <Filter>Forms\FileExtensionsDialog</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
